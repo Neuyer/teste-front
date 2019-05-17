@@ -1,0 +1,399 @@
+/*Ariel Neumeyer*/
+/*cores:LaranjaEscura-#C4572C*/
+/*      LaranjaClaro-#F36C37*/
+/*      Roxo-#573791*/
+/*      Cinza-#33383e*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,600,700&effect=outline');
+*{
+    margin: 0;
+}
+body{
+    color: #ffffff;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 756px;
+    
+}
+
+article{
+    background-color: #573791;
+    height: 980px;
+}
+
+aside{
+    height: 1568px;
+}
+
+footer{
+    background-color: #33383e;
+    height: 463px;
+    padding-top: 100px;
+}
+
+/*Regras-comuns*/
+/*position-absolute*/
+
+.tenis, .dots, .moca, .svgBranco, .containerTextoHeader, .inscArticle, .detalhe, .esp{
+    position: absolute;
+}
+
+/*position-relative*/
+
+.logoFooter, .containerFavs{
+    position: relative;
+}
+/*float-left*/
+
+li, .logoHeader{
+    float: left;
+}
+
+/*float-right*/
+
+table, .edicao, .containerTextoArticle{
+    float: right;
+}
+
+/*display-flex*/
+
+.containerFlex, .containerCirculos, .flex{
+    display: flex;
+}
+
+/*display inline*/
+
+h1, thin, li, .outlined{
+    display: inline;
+}
+
+/** text-align-center*/
+
+li, h2, .colFlex, .circulo, .traco, .svgBranco, .edicao, .insc, .containerTextoArticle{
+    text-align: center;
+}
+
+/*li's - trilha e datas*/
+li{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 8.6rem;
+    margin-top: 2rem;
+    width: 152px;
+}
+li:nth-child(1){
+    margin-left: 7rem;
+}
+li span {
+    font-size: 1.25rem !important;
+}
+
+.containerFlex, .containerCirculos{
+    margin-top: 200px;
+    width: 100%;
+}
+
+.containerCirculos{
+    margin-top:150px;
+}
+
+.colFlex{
+    height: auto;
+    margin: 0 auto;
+}
+
+.circulo, .traco{
+    border: 4px solid #ffffff;
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: 144px;
+}
+
+.circulo{
+    border-radius: 100px;
+    font-size: 4.43rem;
+    font-weight: 300;
+    height: 144px;
+}
+
+#c1{
+    margin-left: 10rem;
+}
+.traco{
+    border-bottom: 0;
+    height:0.1px;
+    margin-top: 4rem;
+    padding: 0;
+}
+
+header, aside{
+    background-color: #F36C37;
+}
+
+
+/*IMAGENS*/
+
+.tenis{
+    right: 0;
+    width: 63%;
+    z-index: 1;
+}
+
+.logoHeader{
+    margin-left: 12.08%;
+    margin-top: 90px;
+    width: 13%;
+}
+
+.logoFooter{
+    top: 2rem;
+    width: 12%;
+}
+
+.dotsL{
+    left: 0px;
+    top: 111px;
+    width: 8.80%;
+   
+}
+
+.dotsR{
+    top: 400px;
+    right: 0;
+    width: 20%;
+   
+}
+.dots{
+    background-image: url(../images/effects-dots.png);
+    height: 155px;
+    z-index: 0;
+}
+
+.dotsLArtic{
+    width: 17%;
+    top: 900px;
+}
+
+.moca{
+    left: 0;
+    top: 500px;
+    width: 61.9%;
+}
+/*svg's*/
+
+
+.st0{
+    fill:#F36C37;
+}
+
+.st1{
+     fill:#FFFFFF;
+}
+
+.svgBranco{
+    right: 42.2%;
+}
+
+.svg1{
+    top: 1970px;
+}
+
+.svg2{
+    top: 2850px;
+}
+
+.containerTextoHeader{
+    left: 12.08%;
+    top: 9rem;
+    width: 45%;
+}
+h1, thin, .outlined{
+    line-height: 6.5rem;
+}
+
+h1, .outlined{
+    font-size: 7.5rem;
+}
+.outlined{
+    -webkit-text-stroke: 1px white; 
+    color: transparent;
+}
+
+.thin{
+    font-size: 3.75rem;
+    font-weight: 200;
+}
+
+.edicao{
+    background-color: #C4572C;
+    box-sizing: border-box;
+    font-size: 1.37rem;
+    height: 55px;
+    margin-right: 11rem;
+    margin-top: 1.7rem;
+    padding-top: 0.6em;
+    width: 395px;
+    
+}
+    
+
+.insc{
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 2.62rem;
+    height: 100px;
+    padding-top: 0.5em;
+    width:22.76%;
+}
+
+.inscHeader{
+    border: 4px solid #ffffff;
+    margin-left: -12.7%;
+    margin-top:540px;
+    
+}
+
+.inscArticle{
+    background-color: #F36C37;
+    right:15%;
+    top: 1580px;
+}
+
+.containerTextoArticle{
+    padding-top: 5rem;
+    margin-right: 1.5rem;
+    width: 52.18%;
+}
+
+h2{
+ font-size: 3.75rem;
+ margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.87rem;
+    margin-bottom: 2rem;
+}
+
+.h2Article{
+    margin: 0 auto;
+    padding-top: 8rem;
+    
+}
+
+p{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.containerTextoArticle p{
+    margin-top: 3.5rem;
+}
+
+.strongArticle{
+     font-size: 1.87rem;
+}
+
+.bArticle{
+    font-size: 1.56rem;
+    font-weight: 600;
+}
+
+a:hover{
+    cursor: pointer;
+
+}
+
+.containerFooter{
+    border-bottom: 1px solid #D1D1D1;
+    height: 320px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.containerFooter p{
+    color: #D1D1D1;
+    float: left;
+    font-size: 1rem;
+    padding-top:5rem;
+    width: 42%;
+}
+
+table{
+    margin-top: -50px;
+    width: 45%;
+}
+
+th, td, caption{
+      text-align: left;
+}
+caption{
+    margin-bottom: 2rem;
+}
+td{
+    font-size: 1.05rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.copyRight{
+    box-sizing: border-box;
+    margin-left: 16%;
+    padding-top: 3rem;
+    width: 45%;
+}
+
+.containerFavs{
+    left: 70%;
+    top: -2rem;
+    width: 20%;
+}
+.containerFavs figure{
+    display: inline;
+    margin-left: 1.3rem;
+    
+}
+.containerFavs img{
+    width: 24px;
+}
+
+.detalhe, .esp{
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari */
+    transform: rotate(-45deg); /* Standard syntax */
+    top: 1698px;
+    right: -45px;
+    
+}
+.linha:nth-child(4){
+     margin-left: -40px;
+     width: 370px;
+     
+}
+.linha{
+    border-bottom: 0.5px solid white;
+    height: 1px;
+    margin-top: 20.25px;
+    margin-left: -20.25px;
+    width: 150px;
+}
+
+.esp{
+    right: -40px;
+    top: 1645px;
+    width: 310px;
+}
+
+.sCirc{
+    border: 0.5px solid white;
+    border-radius: 40px;
+    height: 40.51px;
+    width: 40.51px;
+}
+/*.dotsContainer:nth-child(1){*/
+/*    padding-top: 70.60px;*/
+/*}*/
